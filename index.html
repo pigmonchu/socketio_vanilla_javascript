@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title_web">Suma de números</h1>
+        <div class="form">
+            <div class="field">
+                <label for="op1">Primer valor:</label>
+                <input type="number" name="op1" id="op1">
+            </div>
+            <div class="field">
+                <label for="op2">Segundo valor:</label>
+                <input type="number" name="op2" id="op2">
+            </div>
+            <div class="botonera">
+                <button class="button" id="btnSuma">Aceptar</button>
+            </div>
+        </div>
+        <div class="display">
+            <p class="result" id="resultado"></p>
+        </div>
+        <div class="debug">
+            <p id="data"></p>
+        </div>
+    </div>  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script src="functions.js"></script>
+
+</body>
+</html>
